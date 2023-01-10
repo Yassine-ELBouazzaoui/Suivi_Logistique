@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_outline_local_shipping_24" />
+
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fes"
+                android:layout_toRightOf="@+id/i1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#516b9e"
+                android:layout_marginLeft="20dp"
+                android:letterSpacing="0.03"/>
+
+
+            <ImageView
+                android:id="@+id/i12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="-60dp"
+                android:layout_marginTop="-12dp"
+                android:layout_toStartOf="@+id/tt12"
+                android:src="@drawable/ic_baseline_trending_flat_24" />
+
+            <TextView
+                android:id="@+id/tt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58dp"
+                android:layout_toRightOf="@+id/tt1"
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="0.03"
+                android:text="Rabat"
+                android:textColor="#516b9e"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NBP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Produits - "
+                android:layout_toRightOf="@+id/i1"
+                android:layout_below="@id/tt1"
+                android:textSize="16dp"
+                android:textColor="#516b9e"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/MTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14,99 DH"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textColor="#516b9e"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+

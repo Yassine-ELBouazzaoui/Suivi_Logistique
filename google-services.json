@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "606415999070",
+    "project_id": "suivilogistique-e3121",
+    "storage_bucket": "suivilogistique-e3121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606415999070:android:e79481827846484105a4cf",
+        "android_client_info": {
+          "package_name": "com.example.suivilogistique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606415999070-l5ch4s01ic65l50cjubedspd5rje8ggv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suivilogistique",
+            "certificate_hash": "b2295cf0e28484d115c73bef681d7a1da5a29383"
+          }
+        },
+        {
+          "client_id": "606415999070-613jq360hs90c2u3a5sfar73lncdl16v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvvKKWB2V_6QI35pJGoVUZlbP86yio_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606415999070-613jq360hs90c2u3a5sfar73lncdl16v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

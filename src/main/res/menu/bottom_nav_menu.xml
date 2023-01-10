@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Dashboard" />
+
+
+   <item
+        android:id="@+id/active"
+        android:onClick="Active"
+        android:icon="@drawable/ic_baseline_play_circle_24"
+        android:title="Activé" />
+
+    <item
+        android:id="@+id/desactive"
+        android:onClick="Desactive"
+        android:icon="@drawable/ic_baseline_pause_circle_24"
+        android:title="Désactive" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:onClick="logout"
+        android:title="logout" />
+
+</menu>
